@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #75a2d2, #00C6FF);
+    position: relative;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #222223;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* New font applied */
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of the logo */
+    height: 125px; /* Ensure the logo maintains its aspect ratio */
+    margin-right: -30px; /* Add space between logo and text */
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #5f31c4;
+}
+
+.input-container {
+    margin: 15px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+button.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    display: none;
+}
+
+.form-container.active {
+    display: block;
+}
+
+/* Left-top logo positioning */
+.top-left-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Adjust the width as needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #75a2d2, #00C6FF);
+    position: relative;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #222223;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* New font applied */
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of the logo */
+    height: 125px; /* Ensure the logo maintains its aspect ratio */
+    margin-right: -30px; /* Add space between logo and text */
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #5f31c4;
+}
+
+.input-container {
+    margin: 15px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+button.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    display: none;
+}
+
+.form-container.active {
+    display: block;
+}
+
+/* Left-top logo positioning */
+.top-left-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; /* Adjust the width as needed */
+}
